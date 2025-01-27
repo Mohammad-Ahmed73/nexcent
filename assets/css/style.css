@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.container-lg {
+    max-width: 1200px;
+}
+
+.text-dark {
+    color: #4D4D4D !important;
+}
+
+.text-gray {
+    color: #717171;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.global-btn {
+    background-color: #4CAF4F;
+    color: #fff;
+    border: 0px;
+    padding: 12px 25px;
+    border-radius: 5px;
+}
+
+.main-slider .main-banner-box {
+    background-color: #F5F7FA;
+    padding-block: 112px;
+}
+
+.main-slider .main-banner-box .main-banner-content .banner-title {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 52px;
+    color: #4D4D4D;
+}
+
+.main-slider .main-banner-box .main-banner-content .banner-title span {
+    color: #4CAF4F;
+}
+
+.main-slider .main-banner-box .main-banner-content {
+    max-width: 457px;
+}
+
+
+
+.main-slider .carousel-indicators button {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: #4CAF4F;
+}
+
+
+
+.clients-section .sponser-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.demo-section {
+    background: #F5F7FA;
+}
+
+/* .demo-section h2 {
+    font-size: 34.55px;
+    font-weight: 600;
+    line-height: 52.9px;
+    text-align: center;
+    margin-bottom: 14px;
+} */
+
+
+
+.main-footer {
+    background-color: #263238;
+    color: #fff;
+}
+
+.main-footer .social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.main-footer .social-links li a {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    background-color: #3c464c;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    border-radius: 100%;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.main-footer .footer-box .footer-list li {
+    margin-bottom: 10px;
+}
+.main-footer .footer-box .footer-list li a {
+    color: #F5F7FA;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+
+.main-footer .footer-box .email-wrapper {
+    position: relative;
+}
+
+.main-footer .footer-box .email-wrapper input {
+    background-color: #3c464c;
+    border: 0;
+    font-size: 12px;
+    min-height: 34px;
+    padding-right: 40px;
+}
+
+.main-footer .footer-box .email-wrapper input::placeholder {
+    color: #fff;
+}
+
+.main-footer .footer-box .email-wrapper .send-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    display: flex;
+}
+
+
+.card-section .card .card-body .item-tag-wrapper {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.card-section .card .card-body .item-tag-wrapper span {
+    display: inline-block;
+    background-color: #fa0026;
+    color: #fff;
+    font-size: 14px;
+    padding: 4px 16px;
+    border-radius: 20px;
+}
+
+.card-section .card .card-body .item-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-section .card .card-body .item-price {
+    color: #ab1a36;
+    font-weight: bold;
+}
+
+.card-section .card .card-body .item-btn {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ab1a36;
+    color: #fff;
+    padding: 10px;
+    border-radius: .4rem;
+}
+
+.card-section .card {
+    border: .4rem;
+    transition: all .9s !important;
+    cursor: pointer;
+}
+
+.card-section .card:hover {
+    transform: scale(1.05);
+}
+
+.card-section .card img {
+    border-radius: 10px;
+}
+
+
+
+.card-section .modal-dialog {
+    width: 100%;
+    max-width: 1300px;
+}
+
+.card-section .modal-dialog .modal-content .modal-body .modal-side-image img {
+    width: 100%;
+}
+
+.card-section .modal-dialog .modal-content .modal-body .modal-side-content {
+    border-left: 1px solid lightgray;
+    padding-left: 20px;
+}
+
+.card-section .modal-dialog .modal-content .modal-body .modal-side-content .modal-header {
+    justify-content: space-between;
+    padding-inline: 0;
+}
+
+.card-section .modal-dialog .modal-content .modal-body .modal-side-content .modal-header .header-btns {
+    display: inline-flex;
+    gap: 10px;
+}
+
+.card-section .modal-dialog .modal-content .modal-body .modal-side-content .modal-header .header-btns button {
+    border: 0px;
+    background-color: #ac1a36;
+    opacity: 1;
+    color: #fff;
+    background-image: none;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: .4rem;
+    font-size: 16px;
+}
+
+.card-section .modal-dialog .modal-content .modal-body .modal-side-content .select-menu {
+    height: calc(100vh - 202px);
+    padding: 0;
+    overflow-y: auto;
+    margin-block: 26px;
+    scrollbar-width: thin;
+    /* Thin scrollbar width */
+    scrollbar-color: #ac1a36 #f0f0f0;
+}
+
+
+
+
+
+.card-section .modal-dialog .modal-content .modal-body .modal-side-content .select-menu .select-menu-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card-section .modal-dialog .modal-content .modal-body .modal-side-content .select-menu .select-menu-info .required span {
+    display: inline-block;
+    background-color: #fec917;
+    padding: 5px;
+    border-radius: .4rem;
+    color: #fff;
+}
+
+.card-section .modal-dialog .modal-content .modal-body .modal-side-content .select-menu ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+
+.card-section .modal-dialog .modal-content .modal-body .modal-side-content .modal-footer button {
+    padding: 10px;
+    border: 0px;
+    background-color: #ac1a36;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: .4rem;
+}
+
+.card-section .modal-dialog .modal-content .modal-body .modal-side-content .modal-footer {
+    justify-content: space-between;
+    padding-inline: 0;
+}
+
+.card-section .modal-dialog .modal-content .modal-body .modal-side-content .modal-footer .second .add-cart-btn {
+    width: 100%;
+}
+
+.card-section .modal-dialog .modal-content .modal-body .modal-side-content .modal-footer .second {
+    width: 80%;
+    margin: 0;
+}
+
+.card-section .modal-dialog .modal-content .modal-body .modal-side-content .modal-footer .first {
+    width: 20%;
+    margin: 0;
+}
+
+.card-section .modal-dialog .modal-content .modal-body .modal-side-content .modal-footer button.add-more {
+    width: 45px;
+    height: 45px;
+    padding: 0;
+}
+
+.card-section .modal-dialog .modal-content .modal-body .modal-side-content .modal-footer button.add-more.minimize {
+    background-color: lightgray;
+}
+
+@media (max-width: 1200px) {
+    .container-lg {
+        padding-inline: 5%;
+    }
+}
